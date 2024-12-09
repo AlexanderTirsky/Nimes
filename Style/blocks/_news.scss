@@ -10,10 +10,10 @@
     }
     
     &__text {
-        justify-items: center;
-        justify-content: center;
-        padding-top: 50px;
-        padding-left: 40px;
+        display: inline-block;
+        text-align: left;
+        padding-top: 130px;
+        padding-left: 30px;
         background-color: $colorGrey;
         position: relative;
         z-index: 10;
