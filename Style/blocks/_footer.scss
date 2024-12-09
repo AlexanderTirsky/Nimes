@@ -1,0 +1,19 @@
+.down {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 28, 34)
+
+}
+.down__logo {
+    display: block;
+    padding-bottom: 20px;
+}
+.down__links {
+    color: $colorWhite;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+}

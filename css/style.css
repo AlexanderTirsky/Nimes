@@ -221,22 +221,66 @@ body {
 
 .news {
   display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.news__img {
-  padding-left: 50px;
-  position: relative;
-  z-index: 10;
+.news__wrapper {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f1f2f4;
+  padding-left: 30px;
+}
+.news__span {
+  font-family: sans-serif;
+  font-size: 80px;
+  margin-bottom: 35px;
 }
 .news__text {
-  display: inline-block;
-  text-align: left;
-  padding-top: 130px;
-  padding-left: 30px;
-  background-color: #f1f2f4;
+  color: #000;
+  font-weight: bold;
+}
+.news__images {
   position: relative;
   z-index: 10;
 }
-.news__textline {
+.news__button {
+  padding: 25px;
+  background-color: #000;
+  color: #fff;
+}
+
+.news__upline {
   position: absolute;
   z-index: -1;
+  width: 410px;
+  height: 420px;
+  margin-top: -200px;
+}
+
+.down {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 28, 34);
+}
+
+.down__logo {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.down__links {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
