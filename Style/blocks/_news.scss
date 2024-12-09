@@ -1,0 +1,25 @@
+.news {
+    display: flex;
+    // justify-content: space-evenly;
+
+    &__img {
+        padding-left: 50px;
+        position: relative;
+        z-index: 10;
+
+    }
+    
+    &__text {
+        justify-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-left: 40px;
+        background-color: $colorGrey;
+        position: relative;
+        z-index: 10;
+    }
+    &__textline {
+        position: absolute;
+        z-index: -1;
+    }
+}

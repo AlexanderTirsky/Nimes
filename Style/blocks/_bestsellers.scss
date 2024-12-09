@@ -1,0 +1,16 @@
+.bestseller {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    &__info {
+        margin-top: 10px;
+    }
+    &__scale {
+        transition: 1s;
+    }
+    &__scale:hover {
+        transform: scale(1.3);
+    }
+}
+
