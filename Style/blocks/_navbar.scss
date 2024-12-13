@@ -19,6 +19,20 @@
         border-radius: 20px;
         border-color: $colorBlack;
     }
-}
+    @media (max-width: 800px) {
+        .nav__bar {
+            &__nimes {
+                display: none;
+            }
+            &__link {
+                margin-right: 2px;
+                padding: 0 2px;
+            }
+            &__search {
+                display: none;
+            }
+        }
+    }
+    }
 
 

@@ -45,3 +45,11 @@
 
     }
 }
+@media (max-width: 800px) {
+    .intro__wrapper {
+        flex-direction: column;
+    }
+    .intro__images {
+        margin-top: 30px;
+    }
+}

@@ -37,7 +37,18 @@
 .news__upline {
     position: absolute;
     z-index: -1;
-    width: 410px;
+    width: 420px;
     height: 420px;
     margin-top: -200px;
+}
+@media (max-width: 800px) {
+    .news__wrapper {
+        flex-direction: column;
+    }
+    .news__images {
+        margin-top: 30px;
+    }
+    .news__upline {
+        display: none;
+    }
 }
