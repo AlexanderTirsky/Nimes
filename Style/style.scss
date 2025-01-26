@@ -2,9 +2,5 @@
 @import './base/vars';
 @import './base/base';
 
-@import './blocks/navbar';
-@import './blocks/navbarBst';
-@import './blocks/intro';
-@import './blocks/bestsellers';
-@import './blocks/news';
-@import './blocks/footer';
+@import './layout/layout';
+@import './pages/pages';
